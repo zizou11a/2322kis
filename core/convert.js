@@ -95,7 +95,7 @@ const { jsPDF } = window.jspdf;
 let pdf = null;
 const processNext = (i) => {
 if (i >= files.length) {
-pdf.save('imgswift.pdf');
+pdf.save('IMGVO.pdf');
 $('convertStatus').textContent = `${t.success} ${files.length} ${t.successEnd}`;
 btn.disabled = false;
 $('btnConvert').style.display = 'none';

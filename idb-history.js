@@ -1,6 +1,6 @@
 'use strict';
 const IDBHistory = (function () {
-const DB_NAME = 'imgswift-history';
+const DB_NAME = 'IMGVO-history';
 const DB_VERSION = 1;
 const STORE = 'entries';
 const MAX = 20;

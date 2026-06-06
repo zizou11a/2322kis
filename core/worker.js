@@ -16,7 +16,7 @@ if (type === 'done') cb.resolve(payload);
 else cb.reject(new Error(payload.message));
 };
 _worker.onerror = function(err) {
-console.warn('ImgSwift Worker error — falling back to main thread:', err.message);
+console.warn('IMGVO Worker error — falling back to main thread:', err.message);
 _supported = false;
 };
 _supported = true;

@@ -1,7 +1,7 @@
 'use strict';
 (function() {
 let deferredPrompt = null;
-const DISMISS_KEY = 'imgswift-install-dismissed';
+const DISMISS_KEY = 'IMGVO-install-dismissed';
 window.addEventListener('beforeinstallprompt', e => {
 e.preventDefault();
 deferredPrompt = e;
@@ -41,11 +41,11 @@ const small = document.querySelector('#installBanner .install-text small');
 const btn = document.getElementById('btnInstall');
 if (!strong) return;
 if (lang === 'ar') {
-strong.textContent = 'ثبّت ImgSwift';
+strong.textContent = 'ثبّت IMGVO';
 small.textContent = 'أضفه للشاشة الرئيسية — يعمل بدون إنترنت';
 if (btn) btn.textContent = 'تثبيت';
 } else {
-strong.textContent = 'Install ImgSwift';
+strong.textContent = 'Install IMGVO';
 small.textContent = 'Add to home screen — works offline';
 if (btn) btn.textContent = 'Install';
 }

@@ -1,6 +1,6 @@
 {
-  "name": "ImgSwift – Image Converter & Compressor",
-  "short_name": "ImgSwift",
+  "name": "IMGVO – Image Converter & Compressor",
+  "short_name": "IMGVO",
   "description": "Convert & compress images free. JPG, PNG, WebP, PDF. 100% browser-based.",
   "start_url": "/",
   "display": "standalone",
@@ -57,7 +57,7 @@
       "src": "/screenshot.png",
       "sizes": "1280x720",
       "type": "image/png",
-      "label": "ImgSwift image converter",
+      "label": "IMGVO image converter",
       "form_factor": "wide"
     }
   ],

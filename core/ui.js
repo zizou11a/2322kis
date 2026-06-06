@@ -1,6 +1,6 @@
 'use strict';
 (function() {
-const saved = Store.get('imgswift-theme');
+const saved = Store.get('IMGVO-theme');
 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const theme = saved || (prefersDark ? 'dark' : 'light');
 if (theme === 'light') {
@@ -18,11 +18,11 @@ const isLight = html.getAttribute('data-theme') === 'light';
 if (isLight) {
 html.removeAttribute('data-theme');
 btn.textContent = '🌙';
-Store.set('imgswift-theme', 'dark');
+Store.set('IMGVO-theme', 'dark');
 } else {
 html.setAttribute('data-theme', 'light');
 btn.textContent = '☀️';
-Store.set('imgswift-theme', 'light');
+Store.set('IMGVO-theme', 'light');
 }
 }
 let toastTimer = null;
@@ -77,7 +77,7 @@ const err = e.reason;
 if (!err) return;
 const msg = (err && err.message) || String(err);
 if (/ResizeObserver|IntersectionObserver/i.test(msg)) return;
-console.error('[imgswift] unhandledrejection:', err);
+console.error('[IMGVO] unhandledrejection:', err);
 showToast(friendlyError(err, ''), 'error', 5000);
 });
 window.addEventListener('error', e => {
@@ -85,7 +85,7 @@ if (!e.error) return;
 const msg = (e.error && e.error.message) || '';
 if (/ResizeObserver|IntersectionObserver/i.test(msg)) return;
 if (e.target && e.target.tagName === 'SCRIPT') return;
-console.error('[imgswift] global error:', e.error);
+console.error('[IMGVO] global error:', e.error);
 showToast(friendlyError(e.error, ''), 'error', 5000);
 });
 })();

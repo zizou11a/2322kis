@@ -1,6 +1,6 @@
 'use strict';
 (function initAmoledTheme() {
-const STORE_KEY = 'imgswift-theme';
+const STORE_KEY = 'IMGVO-theme';
 const THEMES = ['dark', 'amoled', 'light'];
 const ICONS = { dark: '🌙', amoled: '⚫', light: '☀️' };
 const LABELS = { dark: 'Dark mode', amoled: 'AMOLED mode', light: 'Light mode' };

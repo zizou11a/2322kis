@@ -1,6 +1,6 @@
 'use strict';
 /* ══════════════════════════════════════════
-   ImgSwift — Interactive Crop Tool
+   IMGVO — Interactive Crop Tool
    Supports: free drag, aspect-ratio presets,
    pixel inputs, touch & mouse
 ══════════════════════════════════════════ */

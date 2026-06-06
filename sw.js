@@ -1,5 +1,5 @@
 const _INJECTED = '__DEPLOY_VERSION__';
-const VERSION = _INJECTED.startsWith('__') ? 'imgswift-v26' : 'imgswift-' + _INJECTED;
+const VERSION = _INJECTED.startsWith('__') ? 'IMGVO-v26' : 'IMGVO-' + _INJECTED;
 const SHELL = [
 '/styles.css',
 '/translations.js',
@@ -71,11 +71,11 @@ new Response('Offline — library unavailable', { status: 503 })
 return;
 }
 if (url.includes('fonts.googleapis.com') || url.includes('fonts.gstatic.com')) {
-e.respondWith(staleWhileRevalidate(request, 'imgswift-fonts'));
+e.respondWith(staleWhileRevalidate(request, 'IMGVO-fonts'));
 return;
 }
 // HTML pages always network-first to get fresh content
-if (url.endsWith('/') || url.endsWith('.html') || url.match(/imgswift\.xyz\/?$/)) {
+if (url.endsWith('/') || url.endsWith('.html') || url.match(/IMGVO\.xyz\/?$/)) {
 e.respondWith(networkFirst(request));
 return;
 }

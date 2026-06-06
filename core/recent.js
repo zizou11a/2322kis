@@ -1,5 +1,5 @@
 'use strict';
-const RECENT_KEY = 'imgswift-recent';
+const RECENT_KEY = 'IMGVO-recent';
 const RECENT_MAX = 6;
 function recentLoad() {
 try { return JSON.parse(localStorage.getItem(RECENT_KEY)) || []; } catch { return []; }

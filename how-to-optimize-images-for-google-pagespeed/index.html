@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Optimize Images for Google PageSpeed — 2026 Guide | ImgSwift</title>
+  <title>Optimize Images for Google PageSpeed — 2026 Guide | IMGVO</title>
   <meta name="description" content="Improve your Google PageSpeed score by optimizing images. Convert to WebP/AVIF, add lazy loading, preload LCP, and fix CLS. Step-by-step 2026 guide.">
   <meta name="keywords" content="optimize images google pagespeed,pagespeed images,webp pagespeed,image optimization pagespeed insights,improve pagespeed score images">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -20,9 +20,9 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
-  <meta property="og:site_name" content="ImgSwift">
+  <meta property="og:site_name" content="IMGVO">
 
-  <meta name="twitter:site" content="@imgswift">
+  <meta name="twitter:site" content="@IMGVO">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="How to Optimize Images for Google PageSpeed (2026 Guide)">
   <meta name="twitter:image" content="https://imgvo.com/og/how-image-compression-works-og.png">
@@ -45,8 +45,8 @@
     "headline": "How to Optimize Images for Google PageSpeed (2026 Guide)",
     "description": "Complete step-by-step guide to fixing every image-related PageSpeed Insights warning in 2026.",
     "url": "https://imgvo.com/how-to-optimize-images-for-google-pagespeed/",
-    "publisher": {"@type":"Organization","name":"ImgSwift","url":"https://imgvo.com"},
-    "author": {"@type": "Person", "name": "ImgSwift Team", "url": "https://imgvo.com/about/"},
+    "publisher": {"@type":"Organization","name":"IMGVO","url":"https://imgvo.com"},
+    "author": {"@type": "Person", "name": "IMGVO Team", "url": "https://imgvo.com/about/"},
     "datePublished": "2026-05-30",
     "dateModified": "2026-05-31"
   }
@@ -60,7 +60,7 @@
       {"@type":"Question","name":"What image format does Google PageSpeed recommend?","acceptedAnswer":{"@type":"Answer","text":"Google PageSpeed Insights explicitly recommends WebP and AVIF under the 'Serve images in next-gen formats' audit. WebP files are typically 25–35% smaller than JPG at the same quality. AVIF files are typically 40–55% smaller. Either format will reduce image payload and improve LCP and overall performance scores."}},
       {"@type":"Question","name":"How much can image optimization improve my PageSpeed score?","acceptedAnswer":{"@type":"Answer","text":"For image-heavy pages, converting to WebP and resizing images to their display dimensions can improve PageSpeed scores by 15–40 points. The exact gain depends on how many images the page has, their current sizes, and whether any LCP or CLS issues are being triggered by images."}},
       {"@type":"Question","name":"What does 'Properly size images' mean in PageSpeed?","acceptedAnswer":{"@type":"Answer","text":"'Properly size images' means you are serving an image larger than it is displayed on screen. For example, uploading a 3000×2000 photo for an 800×533 display slot wastes bandwidth — the browser downloads 14x more pixels than it needs. Fix this by exporting the image at its actual display dimensions (or 2x for retina displays with srcset)."}},
-      {"@type":"Question","name":"How do I fix the 'Serve images in next-gen formats' PageSpeed warning?","acceptedAnswer":{"@type":"Answer","text":"Convert your JPG and PNG images to WebP or AVIF using a tool like ImgSwift. Then update your HTML to use the picture element with AVIF and WebP sources and a JPG fallback, or configure your server/CDN to automatically convert and serve next-gen formats."}},
+      {"@type":"Question","name":"How do I fix the 'Serve images in next-gen formats' PageSpeed warning?","acceptedAnswer":{"@type":"Answer","text":"Convert your JPG and PNG images to WebP or AVIF using a tool like IMGVO. Then update your HTML to use the picture element with AVIF and WebP sources and a JPG fallback, or configure your server/CDN to automatically convert and serve next-gen formats."}},
       {"@type":"Question","name":"Does lazy loading improve PageSpeed score?","acceptedAnswer":{"@type":"Answer","text":"Yes, for below-the-fold images. Lazy loading defers the download of images not visible in the viewport, reducing initial page payload and improving the time to first byte and First Contentful Paint. However, never apply lazy loading to the LCP (hero) image — this delays the Largest Contentful Paint and directly hurts your score."}},
       {"@type":"Question","name":"What is the LCP image and why does it matter for PageSpeed?","acceptedAnswer":{"@type":"Answer","text":"The Largest Contentful Paint (LCP) element is typically the hero/banner image — the largest visible element when the page first loads. LCP is a direct Core Web Vitals ranking signal. A slow LCP (above 2.5 seconds) results in a 'Poor' Core Web Vitals score and hurts both rankings and PageSpeed score. Preloading the LCP image is one of the highest-impact optimizations available."}}
     ]
@@ -184,7 +184,7 @@
       <span class="audit-label">Audit: Serve images in next-gen formats</span>
       <h3>Why it fires</h3>
       <p>Your page serves JPG or PNG images. WebP achieves the same perceptual quality at ~30% smaller file size; AVIF achieves ~50% smaller. Google flags this because smaller images = less bandwidth = faster LCP and lower total page weight.</p>
-      <div class="fix"><strong>Fix:</strong> Convert your JPG/PNG images to WebP using <a href="/jpg-to-webp/">ImgSwift's JPG→WebP converter</a>, then serve them with a <code>&lt;picture&gt;</code> element fallback.</div>
+      <div class="fix"><strong>Fix:</strong> Convert your JPG/PNG images to WebP using <a href="/jpg-to-webp/">IMGVO's JPG→WebP converter</a>, then serve them with a <code>&lt;picture&gt;</code> element fallback.</div>
     </div>
 
     <h3>HTML implementation</h3>
@@ -204,7 +204,7 @@
     </ul>
 
     <div class="tip-box">
-      <strong>💡 Quick win:</strong> If you can't change your server setup, converting images manually with ImgSwift and re-uploading them as WebP files (while keeping JPG fallbacks in <code>&lt;picture&gt;</code> elements) achieves the same result.
+      <strong>💡 Quick win:</strong> If you can't change your server setup, converting images manually with IMGVO and re-uploading them as WebP files (while keeping JPG fallbacks in <code>&lt;picture&gt;</code> elements) achieves the same result.
     </div>
   </section>
 
@@ -215,14 +215,14 @@
       <span class="audit-label">Audit: Properly size images</span>
       <h3>Why it fires</h3>
       <p>You're serving a 4000×3000 image in a 800×600 display slot. The browser downloads 25x more pixels than it renders, wasting bandwidth and slowing the page load.</p>
-      <div class="fix"><strong>Fix:</strong> Resize your images to match their display dimensions before uploading. Use the <a href="/resize-image/">ImgSwift resize tool</a> to set exact pixel dimensions.</div>
+      <div class="fix"><strong>Fix:</strong> Resize your images to match their display dimensions before uploading. Use the <a href="/resize-image/">IMGVO resize tool</a> to set exact pixel dimensions.</div>
     </div>
 
     <h3>How to find the correct dimensions</h3>
     <ol>
       <li>Open Chrome DevTools (F12) and go to the Elements panel</li>
       <li>Hover over the <code>&lt;img&gt;</code> element — the tooltip shows rendered size vs intrinsic size</li>
-      <li>Export the image at rendered size × 2 (for retina/HiDPI displays) using <a href="/resize-image/">ImgSwift Resize</a></li>
+      <li>Export the image at rendered size × 2 (for retina/HiDPI displays) using <a href="/resize-image/">IMGVO Resize</a></li>
     </ol>
 
     <h3>Use srcset for responsive images</h3>
@@ -313,7 +313,7 @@
   <div class="cta-banner">
     <h3>Start Optimizing Your Images</h3>
     <p>Convert to WebP, resize to display dimensions, and compress — all free in your browser.</p>
-    <a href="/" class="cta-btn">Open ImgSwift →</a>
+    <a href="/" class="cta-btn">Open IMGVO →</a>
   </div>
 
   <section class="article-section" id="faq">

@@ -95,11 +95,11 @@ function buildHowToSteps(t) {
   const steps = t.howToSteps || [
     {
       title: "Upload your file",
-      desc:  "Drag and drop your file into ImgSwift or click to browse. No account needed."
+      desc:  "Drag and drop your file into IMGVO or click to browse. No account needed."
     },
     {
       title: "Adjust settings if needed",
-      desc:  "Choose output format and quality. ImgSwift picks smart defaults automatically."
+      desc:  "Choose output format and quality. IMGVO picks smart defaults automatically."
     },
     {
       title: "Download your result",
@@ -163,8 +163,8 @@ function buildBenefits(t) {
 // HowTo Schema — يولّد بناءً على howToSteps
 function buildHowToSchema(t, url, toolLink) {
   const steps = t.howToSteps || [
-    { title: "Upload your file",        desc: "Drag and drop your file into ImgSwift or click to browse. No account needed." },
-    { title: "Adjust settings",         desc: "Choose output format and quality. ImgSwift picks smart defaults automatically." },
+    { title: "Upload your file",        desc: "Drag and drop your file into IMGVO or click to browse. No account needed." },
+    { title: "Adjust settings",         desc: "Choose output format and quality. IMGVO picks smart defaults automatically." },
     { title: "Download your result",    desc: "Click Download to save the file to your device instantly. Nothing is stored online." }
   ];
 
@@ -183,7 +183,7 @@ function buildHowToSchema(t, url, toolLink) {
     "step": [
     ${stepsJson}
     ],
-    "tool": {"@type":"HowToTool","name":"ImgSwift","url":"${url}"}
+    "tool": {"@type":"HowToTool","name":"IMGVO","url":"${url}"}
   }
   </script>`;
 }
@@ -239,18 +239,18 @@ function buildPage(t) {
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="${url}">
-  <meta property="og:title" content="${esc(t.h1)} | ImgSwift">
+  <meta property="og:title" content="${esc(t.h1)} | IMGVO">
   <meta property="og:description" content="${esc(t.ogDesc)}">
   <meta property="og:image" content="${ogImg}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="${esc(t.h1)}">
-  <meta property="og:site_name" content="ImgSwift">
+  <meta property="og:site_name" content="IMGVO">
 
   <!-- Twitter -->
-  <meta name="twitter:site" content="@imgswift">
+  <meta name="twitter:site" content="@IMGVO">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${esc(t.h1)} | ImgSwift">
+  <meta name="twitter:title" content="${esc(t.h1)} | IMGVO">
   <meta name="twitter:description" content="${esc(t.ogDesc)}">
   <meta name="twitter:image" content="${ogImg}">
 
@@ -261,8 +261,8 @@ function buildPage(t) {
     "@type": "Article",
     "headline": ${JSON.stringify(t.title)},
     "description": ${JSON.stringify(t.ogDesc)},
-    "author": {"@type": "Person", "name": "ImgSwift Team", "url": "https://imgvo.com/about/"},
-    "publisher": {"@type": "Organization", "name": "ImgSwift", "url": "https://imgvo.com"},
+    "author": {"@type": "Person", "name": "IMGVO Team", "url": "https://imgvo.com/about/"},
+    "publisher": {"@type": "Organization", "name": "IMGVO", "url": "https://imgvo.com"},
     "url": "${url}",
     "datePublished": "2026-05-30",
     "dateModified": "2026-06-03"
@@ -297,7 +297,7 @@ function buildPage(t) {
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": ${JSON.stringify("ImgSwift — " + t.h1)},
+    "name": ${JSON.stringify("IMGVO — " + t.h1)},
     "url": "${url}",
     "applicationCategory": "MultimediaApplication",
     "operatingSystem": "Any",
@@ -447,7 +447,7 @@ ${relatedHtml}
     <a href="/compress-image/">Compress</a> ·
     <a href="/pdf-to-image/">PDF to Image</a>
   </p>
-  <p style="margin-top:14px;font-size:0.8rem;">© 2026 ImgSwift · <a href="/">Privacy: zero data sent to servers</a></p>
+  <p style="margin-top:14px;font-size:0.8rem;">© 2026 IMGVO · <a href="/">Privacy: zero data sent to servers</a></p>
 </footer>
 
 <script>

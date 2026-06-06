@@ -414,7 +414,7 @@ if (typeof JSZip === 'undefined') return;
 const zip = new JSZip();
 blobs.forEach(b => zip.file(b.name, b.blob));
 const zipBlob = await zip.generateAsync({ type:'blob' });
-_dlBlob(zipBlob, 'imgswift-results.zip');
+_dlBlob(zipBlob, 'IMGVO-results.zip');
 }
 /* ────────────────────────────────────────────────────────────
 BUILD: Smart Recommendations
@@ -829,7 +829,7 @@ const pct = savingsPct(totalOrig, totalResult);
 if (results.length === 1) {
 const r = results[0];
 return [
-`ImgSwift — ${fromExt} → ${toExt} Conversion`,
+`IMGVO — ${fromExt} → ${toExt} Conversion`,
 `File: ${r.file.name}`,
 `Original: ${fmtSz(r.file.size)} (${fromExt})`,
 `Result: ${fmtSz(r.blob.size)} (${toExt})`,
@@ -838,7 +838,7 @@ pct > 0 ? `Saved: ${fmtSz(savedBytes(r.file.size, r.blob.size))} (${pct}%)` : ''
 ].filter(Boolean).join('\n');
 }
 return [
-`ImgSwift — ${fromExt} → ${toExt} Batch Conversion`,
+`IMGVO — ${fromExt} → ${toExt} Batch Conversion`,
 `Files: ${results.length}`,
 `Total original: ${fmtSz(totalOrig)}`,
 `Total result: ${fmtSz(totalResult)}`,

@@ -1,6 +1,6 @@
 'use strict';
 /* ══════════════════════════════════════════
-   ImgSwift — Background Remover (Batch)
+   IMGVO — Background Remover (Batch)
    Uses @huggingface/transformers@3.5.0
    100% browser-based, no server, free forever
 ══════════════════════════════════════════ */
@@ -307,7 +307,7 @@
       const blob = await zip.generateAsync({ type: 'blob' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = 'imgswift_no_bg.zip';
+      a.download = 'IMGVO_no_bg.zip';
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 5000);
     } else {

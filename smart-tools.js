@@ -75,7 +75,7 @@ ctx.fillText(labels[i], x+bw/2, H-pad.b+14);
 if (v > 0) { ctx.fillStyle='#e8eaf0'; ctx.fillText(v, x+bw/2, y-4); }
 });
 }
-const STATS_KEY = 'imgswift_stats_v1';
+const STATS_KEY = 'IMGVO_stats_v1';
 function _statsLoad() {
 try { return JSON.parse(localStorage.getItem(STATS_KEY)) || {}; }
 catch { return {}; }
@@ -446,7 +446,7 @@ _bulkResults.forEach(r => zip.file(r.name, r.blob));
 const content = await zip.generateAsync({ type:'blob', compression:'DEFLATE' });
 const a = document.createElement('a');
 a.href = URL.createObjectURL(content);
-a.download = 'imgswift-bulk.zip';
+a.download = 'IMGVO-bulk.zip';
 a.click();
 } else {
 for (const r of _bulkResults) {

@@ -14,8 +14,8 @@ document.head.appendChild(s);
 });
 return _jszipPromise;
 }
-function getZipPref() { return localStorage.getItem('imgswift-zip-pref') === 'zip'; }
-function setZipPref(useZip) { localStorage.setItem('imgswift-zip-pref', useZip ? 'zip' : 'files'); }
+function getZipPref() { return localStorage.getItem('IMGVO-zip-pref') === 'zip'; }
+function setZipPref(useZip) { localStorage.setItem('IMGVO-zip-pref', useZip ? 'zip' : 'files'); }
 function buildZipToggle({ onFiles, onZip, defaultZip = false }) {
 const wrap = document.createElement('div');
 wrap.className = 'zip-toggle-wrap';
@@ -139,7 +139,7 @@ _origDlBlob(blob, filename, i * 200);
 onZip: () => {
 _collectingConvert = true;
 if (window._convertBlobsCache && window._convertBlobsCache.length > 0) {
-buildAndDownloadZip(window._convertBlobsCache, 'imgswift-converted.zip');
+buildAndDownloadZip(window._convertBlobsCache, 'IMGVO-converted.zip');
 }
 },
 });
@@ -161,7 +161,7 @@ if (!_collectingConvert) __dlBlob(blob, name, delay);
 await _origConvertAll.apply(this, arguments);
 window.dlBlob = __dlBlob;
 if (_collectingConvert && window._convertBlobsCache.length > 0) {
-buildAndDownloadZip(window._convertBlobsCache, 'imgswift-converted.zip');
+buildAndDownloadZip(window._convertBlobsCache, 'IMGVO-converted.zip');
 }
 };
 }
@@ -193,7 +193,7 @@ const items = (window.blobsC || [])
 blob: item.blob,
 filename: item.name.replace(/\.[^/.]+$/, '') + '_compressed.' + item.ext,
 }));
-buildAndDownloadZip(items, 'imgswift-compressed.zip');
+buildAndDownloadZip(items, 'IMGVO-compressed.zip');
 },
 });
 toggle.style.marginLeft = 'auto';

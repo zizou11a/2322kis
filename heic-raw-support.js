@@ -142,7 +142,7 @@ async function preprocessFiles(files, onProgress) {
 }
 
 /* Expose globals */
-window.ImgSwiftSpecialFormats = {
+window.IMGVOSpecialFormats = {
   isHEIC,
   isRAW,
   needsDecode,

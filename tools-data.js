@@ -1,4 +1,4 @@
-// tools-data.js — بيانات جميع أدوات ImgSwift (20 أداة)
+// tools-data.js — بيانات جميع أدوات IMGVO (20 أداة)
 // النسخة 2: دعم howToSteps مخصصة + benefits + conversionTable لكل أداة
 // عدّل هذا الملف وشغّل: node build.js
 
@@ -9,7 +9,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "jpg-to-png",
-    title: "JPG to PNG Converter — Free Online, No Upload | ImgSwift",
+    title: "JPG to PNG Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert JPG to PNG free online. Lossless PNG output with transparent background support. No upload to any server, no signup — 100% browser-based and private.",
     ogDesc: "Convert JPG to PNG online for free. Lossless PNG output, transparent background support. No upload, no signup. 100% browser-based.",
     h1: "JPG to PNG Converter",
@@ -18,8 +18,8 @@ const tools = [
     whyContent: "PNG is a lossless format that supports transparency and sharp edges. Use it when you need a pixel-perfect image for design work, editing, or when the original JPG has important fine detail you want to preserve without further compression artifacts.",
     // خطوات مخصصة لهذه الأداة
     howToSteps: [
-      { title: "Upload your JPG", desc: "Drag and drop any JPG or JPEG file into ImgSwift, or click to browse. Supports multiple files." },
-      { title: "Preview the result", desc: "ImgSwift converts instantly in your browser. Preview the PNG output before downloading." },
+      { title: "Upload your JPG", desc: "Drag and drop any JPG or JPEG file into IMGVO, or click to browse. Supports multiple files." },
+      { title: "Preview the result", desc: "IMGVO converts instantly in your browser. Preview the PNG output before downloading." },
       { title: "Download your PNG", desc: "Click Download to save the lossless PNG to your device. No watermark, no signup." }
     ],
     // مقارنة التنسيقات — يظهر كجدول في الصفحة
@@ -50,11 +50,11 @@ const tools = [
       },
       {
         q: "How do I convert JPG to PNG on iPhone or Android?",
-        a: "ImgSwift works in all mobile browsers. Open imgvo.com on your phone, select JPG to PNG, upload your image, and download the result — no app needed."
+        a: "IMGVO works in all mobile browsers. Open imgvo.com on your phone, select JPG to PNG, upload your image, and download the result — no app needed."
       },
       {
         q: "Is there a file size limit?",
-        a: "ImgSwift processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without any issues."
+        a: "IMGVO processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without any issues."
       }
     ],
     relatedTools: ["png-to-jpg", "jpg-to-webp", "compress-image", "resize-image"]
@@ -65,7 +65,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "png-to-jpg",
-    title: "PNG to JPG Converter — Free Online, No Upload | ImgSwift",
+    title: "PNG to JPG Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert PNG to JPG free online. Smaller file sizes for web and email. Adjustable quality slider. No upload to any server — 100% browser-based and private.",
     ogDesc: "Convert PNG to JPG online free. Smaller file sizes for web sharing and email. Adjustable quality slider. No upload, 100% browser-based.",
     h1: "PNG to JPG Converter",
@@ -73,7 +73,7 @@ const tools = [
     whyHeading: "Why Convert PNG to JPG?",
     whyContent: "JPG files are dramatically smaller than PNG for photographs, making them ideal for web use, email attachments, and social media uploads. If your PNG doesn't need transparency, converting to JPG can reduce file size by 60–80% with minimal visible quality loss.",
     howToSteps: [
-      { title: "Upload your PNG", desc: "Drag and drop your PNG file into ImgSwift. Batch upload supported — convert multiple files at once." },
+      { title: "Upload your PNG", desc: "Drag and drop your PNG file into IMGVO. Batch upload supported — convert multiple files at once." },
       { title: "Adjust quality", desc: "Use the quality slider (default: 85%). Higher = better quality, larger file. Lower = smaller file, some compression." },
       { title: "Download JPG", desc: "Click Download to save your JPG. Or use Download All for a ZIP of all converted files." }
     ],
@@ -103,7 +103,7 @@ const tools = [
       },
       {
         q: "Can I convert multiple PNG files to JPG at once?",
-        a: "Yes. ImgSwift supports batch conversion. Drag multiple PNG files into the upload area and all will be converted simultaneously."
+        a: "Yes. IMGVO supports batch conversion. Drag multiple PNG files into the upload area and all will be converted simultaneously."
       },
       {
         q: "What quality setting should I use?",
@@ -118,7 +118,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "jpg-to-webp",
-    title: "JPG to WebP Converter — Free Online | ImgSwift",
+    title: "JPG to WebP Converter — Free Online | IMGVO",
     metaDesc: "Convert JPG to WebP free online. Reduce file size by 25–35% with equal or better quality. Improve site speed & Core Web Vitals. No upload, 100% private.",
     ogDesc: "Convert JPG to WebP online free. Reduce image file size by 25–35% with equal or better quality. Improve site speed and Core Web Vitals. No upload.",
     h1: "JPG to WebP Converter",
@@ -126,7 +126,7 @@ const tools = [
     whyHeading: "Why Convert JPG to WebP?",
     whyContent: "WebP is Google's modern image format that achieves 25–35% smaller file sizes than JPG at equivalent visual quality. Switching to WebP improves page load speed, reduces bandwidth costs, and boosts Google Core Web Vitals scores — all without sacrificing image quality.",
     howToSteps: [
-      { title: "Upload your JPG", desc: "Drop your JPG or JPEG file into ImgSwift. Multiple files supported for batch conversion." },
+      { title: "Upload your JPG", desc: "Drop your JPG or JPEG file into IMGVO. Multiple files supported for batch conversion." },
       { title: "Set quality (optional)", desc: "Default is 85% — excellent for most web use. Adjust lower for smaller files or higher for archival quality." },
       { title: "Download WebP", desc: "Your WebP file is ready instantly. Download it and replace your JPG in your website or CMS." }
     ],
@@ -160,7 +160,7 @@ const tools = [
       },
       {
         q: "Is there a file size limit?",
-        a: "ImgSwift processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
+        a: "IMGVO processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
       }
     ],
     relatedTools: ["png-to-webp", "jpg-to-avif", "compress-image", "resize-image"]
@@ -171,7 +171,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "png-to-webp",
-    title: "PNG to WebP Converter — Free Online | ImgSwift",
+    title: "PNG to WebP Converter — Free Online | IMGVO",
     metaDesc: "Convert PNG to WebP free online. Transparency preserved. Files up to 70% smaller. Ideal for logos, icons & web performance. No upload, complete privacy.",
     ogDesc: "Convert PNG to WebP online free. Transparency preserved. Files up to 70% smaller. Ideal for logos, icons, and web performance. No upload needed.",
     h1: "PNG to WebP Converter",
@@ -179,7 +179,7 @@ const tools = [
     whyHeading: "Why Convert PNG to WebP?",
     whyContent: "WebP supports full transparency (like PNG) while achieving dramatically smaller file sizes — often 50–70% smaller for logos, icons, and flat-color graphics. It's the ideal format for web assets that need transparency without the weight of PNG.",
     howToSteps: [
-      { title: "Upload your PNG", desc: "Drop your PNG file into ImgSwift. Transparent PNGs are fully supported — alpha channel is preserved." },
+      { title: "Upload your PNG", desc: "Drop your PNG file into IMGVO. Transparent PNGs are fully supported — alpha channel is preserved." },
       { title: "Choose lossy or lossless", desc: "For logos and icons: use lossless (100% quality) for perfect reproduction. For photos saved as PNG: 80–85% gives excellent results." },
       { title: "Download WebP", desc: "Save the WebP file and use it directly in your website. Your transparent areas are fully preserved." }
     ],
@@ -224,17 +224,17 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "compress-image",
-    title: "Compress Images Free Online — Up to 90% Smaller | ImgSwift",
+    title: "Compress Images Free Online — Up to 90% Smaller | IMGVO",
     metaDesc: "Compress JPG, PNG & WebP images free online. Reduce file size up to 90% without visible quality loss. No upload, no signup — 100% browser-based and private.",
     ogDesc: "Compress JPG, PNG, and WebP images free online. Reduce file size up to 90% without visible quality loss. No upload, no signup, 100% browser-based.",
     h1: "Compress Images Free Online",
     introParagraph: "Compress JPG, PNG, and WebP images free online. Reduce file size up to 90% without visible quality loss. No upload, no signup, 100% browser-based.",
     whyHeading: "Why Compress Images?",
-    whyContent: "Large images are the #1 cause of slow websites. Smaller images mean faster load times, better user experience, lower bounce rates, and improved Google PageSpeed scores. ImgSwift compresses your images intelligently — reducing file size dramatically while keeping them looking sharp.",
+    whyContent: "Large images are the #1 cause of slow websites. Smaller images mean faster load times, better user experience, lower bounce rates, and improved Google PageSpeed scores. IMGVO compresses your images intelligently — reducing file size dramatically while keeping them looking sharp.",
     howToSteps: [
-      { title: "Upload your images", desc: "Drop JPG, PNG, or WebP files into ImgSwift. Batch compression supported — compress dozens at once." },
+      { title: "Upload your images", desc: "Drop JPG, PNG, or WebP files into IMGVO. Batch compression supported — compress dozens at once." },
       { title: "Set compression level", desc: "Use the quality slider. 75–80% is optimal for web. The side-by-side preview shows exactly what you get." },
-      { title: "Download compressed files", desc: "Download each file individually or use Download All to get a ZIP. ImgSwift shows the size saving percentage." }
+      { title: "Download compressed files", desc: "Download each file individually or use Download All to get a ZIP. IMGVO shows the size saving percentage." }
     ],
     conversionTable: {
       heading: "Compression Results by Image Type",
@@ -262,11 +262,11 @@ const tools = [
       },
       {
         q: "Can I compress PNG files?",
-        a: "Yes. ImgSwift compresses PNG using optimization techniques. For even smaller files, consider converting PNG to WebP, which can reduce size by 50–70% with transparency preserved."
+        a: "Yes. IMGVO compresses PNG using optimization techniques. For even smaller files, consider converting PNG to WebP, which can reduce size by 50–70% with transparency preserved."
       },
       {
         q: "Is there a file size limit?",
-        a: "ImgSwift processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
+        a: "IMGVO processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
       }
     ],
     relatedTools: ["resize-image", "jpg-to-webp", "png-to-webp", "jpg-to-avif"]
@@ -277,7 +277,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "resize-image",
-    title: "Resize Image Free Online — Exact Pixels or Percentage | ImgSwift",
+    title: "Resize Image Free Online — Exact Pixels or Percentage | IMGVO",
     metaDesc: "Resize any image free online. Set exact pixel dimensions or scale by percentage. Supports JPG, PNG, WebP & AVIF. No upload, no signup — 100% private.",
     ogDesc: "Resize images free online. Exact pixel dimensions or percentage scaling. Aspect ratio lock. No upload, 100% browser-based.",
     h1: "Resize Image Free Online",
@@ -285,7 +285,7 @@ const tools = [
     whyHeading: "Why Resize Images?",
     whyContent: "Oversized images waste bandwidth and slow down pages. Resizing to the exact dimensions your layout requires can dramatically reduce file sizes — a 4000×3000 image scaled to 1200×900 is typically 8–10x smaller, with no perceived quality difference for the display size.",
     howToSteps: [
-      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF file into ImgSwift. The original dimensions are shown automatically." },
+      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF file into IMGVO. The original dimensions are shown automatically." },
       { title: "Set new dimensions", desc: "Type the target width or height in pixels, or enter a percentage. Enable aspect ratio lock to prevent stretching." },
       { title: "Download resized image", desc: "Click Resize & Download. Choose your output format: JPG, PNG, or WebP." }
     ],
@@ -307,11 +307,11 @@ const tools = [
     faqs: [
       {
         q: "Can I resize an image to exact pixel dimensions?",
-        a: "Yes. ImgSwift lets you type an exact width and height in pixels. You can lock the aspect ratio so the image scales proportionally, or unlock it to set custom dimensions independently."
+        a: "Yes. IMGVO lets you type an exact width and height in pixels. You can lock the aspect ratio so the image scales proportionally, or unlock it to set custom dimensions independently."
       },
       {
         q: "What image formats can I resize?",
-        a: "ImgSwift supports JPG, PNG, WebP, AVIF, GIF, and most common image formats for input. The output can be downloaded as JPG, PNG, or WebP."
+        a: "IMGVO supports JPG, PNG, WebP, AVIF, GIF, and most common image formats for input. The output can be downloaded as JPG, PNG, or WebP."
       },
       {
         q: "Does resizing an image reduce its file size?",
@@ -319,7 +319,7 @@ const tools = [
       },
       {
         q: "Is there a file size limit?",
-        a: "ImgSwift processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
+        a: "IMGVO processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
       }
     ],
     relatedTools: ["compress-image", "crop-image", "jpg-to-webp", "png-to-webp"]
@@ -330,7 +330,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "webp-to-jpg",
-    title: "WebP to JPG Converter — Free Online | ImgSwift",
+    title: "WebP to JPG Converter — Free Online | IMGVO",
     metaDesc: "Convert WebP to JPG free online. Maximum compatibility for email, social media & legacy platforms. High quality output. No upload, instant, 100% private.",
     ogDesc: "Convert WebP to JPG online free. Maximum compatibility for email, social media, and legacy platforms. High quality output. No upload, instant.",
     h1: "WebP to JPG Converter",
@@ -338,7 +338,7 @@ const tools = [
     whyHeading: "Why Convert WebP to JPG?",
     whyContent: "JPG is the most universally accepted image format. Some email clients, social networks, CMS platforms, and legacy systems do not accept WebP. Converting WebP to JPG guarantees your images display correctly on every platform and device.",
     howToSteps: [
-      { title: "Upload your WebP", desc: "Drop your WebP file into ImgSwift. Single or batch upload — convert multiple files at once." },
+      { title: "Upload your WebP", desc: "Drop your WebP file into IMGVO. Single or batch upload — convert multiple files at once." },
       { title: "Set output quality", desc: "Default is 90% — excellent for sharing. Adjust lower for smaller file sizes, higher for maximum quality." },
       { title: "Download JPG", desc: "Download your JPG and share it via email, WhatsApp, social media, or any platform." }
     ],
@@ -364,11 +364,11 @@ const tools = [
       },
       {
         q: "Can I convert multiple WebP files to JPG at once?",
-        a: "Yes. Drag multiple WebP files into ImgSwift simultaneously. All are converted in parallel and can be downloaded individually or as a ZIP."
+        a: "Yes. Drag multiple WebP files into IMGVO simultaneously. All are converted in parallel and can be downloaded individually or as a ZIP."
       },
       {
         q: "Is there a file size limit?",
-        a: "ImgSwift processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
+        a: "IMGVO processes files entirely in your browser, so limits depend on your device's memory. Most devices handle images up to 50–100 MB without issues."
       },
       {
         q: "Why won't my WebP image upload to some platforms?",
@@ -383,7 +383,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "webp-to-png",
-    title: "WebP to PNG Converter — Free Online | ImgSwift",
+    title: "WebP to PNG Converter — Free Online | IMGVO",
     metaDesc: "Convert WebP to PNG free online. Universal compatibility for design tools, print & offline use. Full transparency preserved. No upload, instant and private.",
     ogDesc: "Convert WebP to PNG online free. Universal compatibility for design tools, print, and offline use. Full transparency preserved. No upload, instant.",
     h1: "WebP to PNG Converter",
@@ -391,8 +391,8 @@ const tools = [
     whyHeading: "Why Convert WebP to PNG?",
     whyContent: "While WebP excels on the web, many professional tools — older Photoshop versions, print workflows, design applications, and document editors — do not support WebP. Converting to PNG ensures your image opens in every program and platform without issues.",
     howToSteps: [
-      { title: "Upload your WebP", desc: "Drop your WebP file into ImgSwift. Transparent WebP files are fully supported." },
-      { title: "Convert instantly", desc: "No settings needed — ImgSwift converts to lossless PNG automatically. Full quality preserved." },
+      { title: "Upload your WebP", desc: "Drop your WebP file into IMGVO. Transparent WebP files are fully supported." },
+      { title: "Convert instantly", desc: "No settings needed — IMGVO converts to lossless PNG automatically. Full quality preserved." },
       { title: "Download PNG", desc: "Save the PNG and open it in Photoshop, Figma, Illustrator, or any design tool." }
     ],
     conversionTable: {
@@ -436,7 +436,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "jpg-to-avif",
-    title: "JPG to AVIF Converter — Free Online | ImgSwift",
+    title: "JPG to AVIF Converter — Free Online | IMGVO",
     metaDesc: "Convert JPG to AVIF free online. Reduce file size up to 50% vs JPG with superior quality. Next-gen format for modern websites. No upload, 100% private.",
     ogDesc: "Convert JPG to AVIF online free. Reduce image file size by up to 50% vs JPG with superior quality. Next-gen format for modern websites. No upload.",
     h1: "JPG to AVIF Converter",
@@ -444,7 +444,7 @@ const tools = [
     whyHeading: "Why Convert JPG to AVIF?",
     whyContent: "AVIF is the next-generation image format developed by the Alliance for Open Media. It achieves file sizes up to 50% smaller than JPG at equivalent or better visual quality, outperforming even WebP in most tests. Switching to AVIF can dramatically improve page load speed and Google Core Web Vitals scores.",
     howToSteps: [
-      { title: "Upload your JPG", desc: "Drop your JPG or JPEG file into ImgSwift. AVIF encoding runs entirely in your browser." },
+      { title: "Upload your JPG", desc: "Drop your JPG or JPEG file into IMGVO. AVIF encoding runs entirely in your browser." },
       { title: "Set quality (optional)", desc: "Default is quality 70 — visually excellent and dramatically smaller than JPG. Adjust to 80–90 for maximum quality." },
       { title: "Download AVIF", desc: "Save the AVIF file and use it in your website with a <picture> element and JPG or WebP fallback." }
     ],
@@ -478,7 +478,7 @@ const tools = [
       },
       {
         q: "How does AVIF compare to WebP?",
-        a: "AVIF is generally 20–30% smaller than WebP at the same quality. The trade-off is slower encoding time — AVIF takes more CPU than WebP, though ImgSwift handles this in the background."
+        a: "AVIF is generally 20–30% smaller than WebP at the same quality. The trade-off is slower encoding time — AVIF takes more CPU than WebP, though IMGVO handles this in the background."
       }
     ],
     relatedTools: ["jpg-to-webp", "png-to-avif", "webp-to-avif", "compress-image"]
@@ -489,7 +489,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "png-to-avif",
-    title: "PNG to AVIF Converter — Free Online | ImgSwift",
+    title: "PNG to AVIF Converter — Free Online | IMGVO",
     metaDesc: "Convert PNG to AVIF free online. Dramatically reduce image file size while keeping sharp details. Next-gen compression for modern websites. No upload needed.",
     ogDesc: "Convert PNG to AVIF online free. Dramatically reduce image file size while keeping sharp details. Next-gen compression for modern web. No upload.",
     h1: "PNG to AVIF Converter",
@@ -497,7 +497,7 @@ const tools = [
     whyHeading: "Why Convert PNG to AVIF?",
     whyContent: "PNG files are large by nature — they use lossless compression, which preserves every pixel but results in big file sizes. AVIF offers a smarter alternative: lossy AVIF at quality 90 is often visually identical to PNG but 5–10x smaller, making it ideal for web delivery.",
     howToSteps: [
-      { title: "Upload your PNG", desc: "Drop your PNG file into ImgSwift. Transparent PNGs are fully supported — alpha channel preserved." },
+      { title: "Upload your PNG", desc: "Drop your PNG file into IMGVO. Transparent PNGs are fully supported — alpha channel preserved." },
       { title: "Adjust quality", desc: "For web delivery, quality 75–85 gives visually identical results to PNG at a fraction of the size." },
       { title: "Download AVIF", desc: "Use the AVIF in your website. Always include a PNG fallback for maximum compatibility." }
     ],
@@ -527,7 +527,7 @@ const tools = [
       },
       {
         q: "Is AVIF lossless?",
-        a: "AVIF supports both lossy and lossless modes. Most converters (including ImgSwift) use lossy by default for smaller sizes, but lossless AVIF is available for archival use."
+        a: "AVIF supports both lossy and lossless modes. Most converters (including IMGVO) use lossy by default for smaller sizes, but lossless AVIF is available for archival use."
       },
       {
         q: "Can I use AVIF for website icons and logos?",
@@ -542,7 +542,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "webp-to-avif",
-    title: "WebP to AVIF Converter — Free Online | ImgSwift",
+    title: "WebP to AVIF Converter — Free Online | IMGVO",
     metaDesc: "Convert WebP to AVIF free online. Upgrade to next-gen compression — 20–30% smaller than WebP at the same quality. No upload to any server, 100% private.",
     ogDesc: "Convert WebP to AVIF online free. Upgrade your web images to the next-generation format. 20–30% smaller than WebP at the same quality. No upload.",
     h1: "WebP to AVIF Converter",
@@ -550,8 +550,8 @@ const tools = [
     whyHeading: "Why Upgrade WebP to AVIF?",
     whyContent: "WebP was Google's answer to JPEG inefficiency — and it delivered a 25–35% improvement. AVIF goes further: it is typically 20–30% smaller than WebP at the same visual quality. If you are already using WebP, converting to AVIF is the logical next step for maximum performance.",
     howToSteps: [
-      { title: "Upload your WebP", desc: "Drop your WebP file into ImgSwift. AVIF encoding runs in the background using Web Workers." },
-      { title: "Wait for encoding", desc: "AVIF encoding is more CPU-intensive than WebP. ImgSwift shows a progress indicator — the page stays responsive." },
+      { title: "Upload your WebP", desc: "Drop your WebP file into IMGVO. AVIF encoding runs in the background using Web Workers." },
+      { title: "Wait for encoding", desc: "AVIF encoding is more CPU-intensive than WebP. IMGVO shows a progress indicator — the page stays responsive." },
       { title: "Download AVIF", desc: "Save the AVIF. For maximum reach, use it alongside a WebP fallback in your <picture> element." }
     ],
     conversionTable: {
@@ -572,7 +572,7 @@ const tools = [
     faqs: [
       {
         q: "Is AVIF actually better than WebP in compression?",
-        a: "Generally yes — AVIF achieves 20–30% better compression than WebP at the same quality. However, AVIF encoding is slower, which is why ImgSwift uses Web Workers to keep the page responsive."
+        a: "Generally yes — AVIF achieves 20–30% better compression than WebP at the same quality. However, AVIF encoding is slower, which is why IMGVO uses Web Workers to keep the page responsive."
       },
       {
         q: "Should I replace WebP with AVIF on my website?",
@@ -584,7 +584,7 @@ const tools = [
       },
       {
         q: "How long does AVIF encoding take?",
-        a: "AVIF encoding is more CPU-intensive than WebP. ImgSwift runs everything in your browser and uses Web Workers to keep the UI responsive during conversion."
+        a: "AVIF encoding is more CPU-intensive than WebP. IMGVO runs everything in your browser and uses Web Workers to keep the UI responsive during conversion."
       }
     ],
     relatedTools: ["jpg-to-avif", "png-to-avif", "webp-to-jpg", "webp-to-png"]
@@ -595,7 +595,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "avif-to-jpg",
-    title: "AVIF to JPG Converter — Free Online | ImgSwift",
+    title: "AVIF to JPG Converter — Free Online | IMGVO",
     metaDesc: "Convert AVIF to JPG free online. Get maximum compatibility — JPG works everywhere. Fast, private, 100% browser-based. No upload to any server required.",
     ogDesc: "Convert AVIF to JPG online free. Get maximum compatibility — JPG works everywhere. Fast, private, browser-based. No upload required.",
     h1: "AVIF to JPG Converter",
@@ -603,7 +603,7 @@ const tools = [
     whyHeading: "Why Convert AVIF to JPG?",
     whyContent: "AVIF is the superior format for modern browsers, but JPG remains the universal standard. Converting AVIF to JPG is necessary when sharing images with older software, sending photos by email, uploading to platforms that do not yet accept AVIF, or when maximum device compatibility is required.",
     howToSteps: [
-      { title: "Upload your AVIF", desc: "Drop your AVIF file into ImgSwift. The tool decodes it instantly in your browser." },
+      { title: "Upload your AVIF", desc: "Drop your AVIF file into IMGVO. The tool decodes it instantly in your browser." },
       { title: "Set JPG quality", desc: "Default is 90% — visually excellent for all use cases. Lower for smaller email attachments." },
       { title: "Download JPG", desc: "Save the JPG and share it via email, WhatsApp, or any platform." }
     ],
@@ -629,7 +629,7 @@ const tools = [
       },
       {
         q: "Is AVIF to JPG conversion free?",
-        a: "Yes — ImgSwift converts AVIF to JPG completely free in your browser. No uploads, no signup, no watermark."
+        a: "Yes — IMGVO converts AVIF to JPG completely free in your browser. No uploads, no signup, no watermark."
       },
       {
         q: "What quality setting should I use for JPG output?",
@@ -648,7 +648,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "avif-to-png",
-    title: "AVIF to PNG Converter — Free Online | ImgSwift",
+    title: "AVIF to PNG Converter — Free Online | IMGVO",
     metaDesc: "Convert AVIF to PNG free online. Get lossless quality with full transparency support. Works on all devices and design tools. No upload, complete privacy.",
     ogDesc: "Convert AVIF to PNG online free. Get lossless quality with full transparency support. Works on all devices and software. No upload required.",
     h1: "AVIF to PNG Converter",
@@ -656,8 +656,8 @@ const tools = [
     whyHeading: "Why Convert AVIF to PNG?",
     whyContent: "PNG is the go-to lossless format for images requiring perfect quality and transparency. Converting AVIF to PNG is ideal when you need to edit the image in software that does not support AVIF, use it in a design tool like Figma or Photoshop, or require a lossless master copy.",
     howToSteps: [
-      { title: "Upload your AVIF", desc: "Drop your AVIF file into ImgSwift. Transparent AVIF files are fully supported." },
-      { title: "Convert to PNG", desc: "No settings needed — ImgSwift converts to lossless PNG instantly. Transparency is preserved automatically." },
+      { title: "Upload your AVIF", desc: "Drop your AVIF file into IMGVO. Transparent AVIF files are fully supported." },
+      { title: "Convert to PNG", desc: "No settings needed — IMGVO converts to lossless PNG instantly. Transparency is preserved automatically." },
       { title: "Download PNG", desc: "Open your PNG in Photoshop, Figma, Illustrator, or any design tool." }
     ],
     conversionTable: {
@@ -689,7 +689,7 @@ const tools = [
         a: "Photoshop supports AVIF reading in newer versions (2022+), but not all plugins and filters work well with it. Converting to PNG ensures full compatibility with all Photoshop features."
       },
       {
-        q: "Is AVIF to PNG free on ImgSwift?",
+        q: "Is AVIF to PNG free on IMGVO?",
         a: "Yes, completely free. The conversion runs entirely in your browser — nothing is sent to any server."
       }
     ],
@@ -701,7 +701,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "avif-to-webp",
-    title: "AVIF to WebP Converter — Free Online | ImgSwift",
+    title: "AVIF to WebP Converter — Free Online | IMGVO",
     metaDesc: "Convert AVIF to WebP free online. Broad browser support with excellent compression. Works on Chrome, Firefox, Safari & Edge. No upload, 100% private.",
     ogDesc: "Convert AVIF to WebP online free. Broad browser support with excellent compression. Works on Chrome, Firefox, Safari, and Edge. No upload.",
     h1: "AVIF to WebP Converter",
@@ -709,7 +709,7 @@ const tools = [
     whyHeading: "Why Convert AVIF to WebP?",
     whyContent: "WebP has near-universal browser support (97%+ globally) while AVIF is still catching up in some environments. Converting AVIF to WebP gives you excellent compression with much broader compatibility — especially important when serving images to Firefox users or legacy Android browsers.",
     howToSteps: [
-      { title: "Upload your AVIF", desc: "Drop your AVIF file into ImgSwift. Transparent AVIF files are supported — alpha channel preserved in WebP output." },
+      { title: "Upload your AVIF", desc: "Drop your AVIF file into IMGVO. Transparent AVIF files are supported — alpha channel preserved in WebP output." },
       { title: "Set WebP quality", desc: "Default is 85% — excellent balance of quality and file size for web delivery." },
       { title: "Download WebP", desc: "Save the WebP and serve it to the 97%+ of users whose browsers support it." }
     ],
@@ -742,7 +742,7 @@ const tools = [
         a: "Yes. WebP supports alpha channel transparency, making it suitable for logos, icons, and UI elements that need transparent backgrounds."
       },
       {
-        q: "Is AVIF to WebP conversion free on ImgSwift?",
+        q: "Is AVIF to WebP conversion free on IMGVO?",
         a: "Yes — completely free and private. All conversion happens in your browser with no server uploads."
       }
     ],
@@ -754,7 +754,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "jpg-to-pdf",
-    title: "JPG to PDF Converter — Free Online, No Upload | ImgSwift",
+    title: "JPG to PDF Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert JPG images to PDF free online. Combine multiple JPGs into one PDF instantly. No upload to any server, no signup — 100% browser-based and private.",
     ogDesc: "Convert JPG images to PDF online for free. No upload, no signup. 100% browser-based.",
     h1: "JPG to PDF Converter",
@@ -762,7 +762,7 @@ const tools = [
     whyHeading: "Why Convert JPG to PDF?",
     whyContent: "PDF is the universal standard for sharing documents. Converting JPG images to PDF lets you send photos as a single attachment, preserve the layout across all devices, and protect content from easy editing. It is the go-to format for scanned documents, invoices, contracts, and portfolios.",
     howToSteps: [
-      { title: "Upload your JPG images", desc: "Drop one or multiple JPG files into ImgSwift. Drag to reorder — the order becomes the page order in the PDF." },
+      { title: "Upload your JPG images", desc: "Drop one or multiple JPG files into IMGVO. Drag to reorder — the order becomes the page order in the PDF." },
       { title: "Arrange pages", desc: "Drag and drop images to set the page order. Each image becomes one page in the output PDF." },
       { title: "Download PDF", desc: "Click Create PDF and download your file. Full resolution images embedded with no re-compression." }
     ],
@@ -784,11 +784,11 @@ const tools = [
     faqs: [
       {
         q: "Can I combine multiple JPG images into one PDF?",
-        a: "Yes. ImgSwift lets you upload multiple JPG images and merge them into a single PDF file, with each image placed on its own page."
+        a: "Yes. IMGVO lets you upload multiple JPG images and merge them into a single PDF file, with each image placed on its own page."
       },
       {
         q: "Does the PDF preserve image quality?",
-        a: "Yes. ImgSwift embeds your JPG at full resolution inside the PDF without re-compressing it, so quality is fully preserved."
+        a: "Yes. IMGVO embeds your JPG at full resolution inside the PDF without re-compressing it, so quality is fully preserved."
       },
       {
         q: "Is my image uploaded to a server?",
@@ -796,7 +796,7 @@ const tools = [
       },
       {
         q: "What is the maximum file size for JPG to PDF conversion?",
-        a: "ImgSwift handles files up to several hundred MB directly in your browser, depending on your device memory. There is no server-side limit."
+        a: "IMGVO handles files up to several hundred MB directly in your browser, depending on your device memory. There is no server-side limit."
       }
     ],
     relatedTools: ["png-to-pdf", "pdf-to-image", "compress-image", "resize-image"]
@@ -807,7 +807,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "png-to-pdf",
-    title: "PNG to PDF Converter — Free Online, No Upload | ImgSwift",
+    title: "PNG to PDF Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert PNG images to PDF free online. Combine multiple PNGs into one PDF instantly. No upload to any server, no signup — 100% browser-based and private.",
     ogDesc: "Convert PNG images to PDF online for free. No upload, no signup. 100% browser-based.",
     h1: "PNG to PDF Converter",
@@ -815,7 +815,7 @@ const tools = [
     whyHeading: "Why Convert PNG to PDF?",
     whyContent: "PDF is the universal standard for sharing documents. Converting PNG images to PDF lets you send photos and graphics as a single attachment, preserve the layout across all devices, and protect content from easy editing. Ideal for design mockups, screenshots, and documentation.",
     howToSteps: [
-      { title: "Upload your PNG images", desc: "Drop one or multiple PNG files into ImgSwift. Transparent PNGs are supported." },
+      { title: "Upload your PNG images", desc: "Drop one or multiple PNG files into IMGVO. Transparent PNGs are supported." },
       { title: "Arrange pages", desc: "Drag and drop images to set the page order. Each image becomes one page in the output PDF." },
       { title: "Download PDF", desc: "Click Create PDF. Full resolution PNG data is embedded with no quality loss." }
     ],
@@ -837,11 +837,11 @@ const tools = [
     faqs: [
       {
         q: "Can I combine multiple PNG images into one PDF?",
-        a: "Yes. ImgSwift lets you upload multiple PNG images and merge them into a single PDF file, with each image placed on its own page."
+        a: "Yes. IMGVO lets you upload multiple PNG images and merge them into a single PDF file, with each image placed on its own page."
       },
       {
         q: "Does the PDF preserve PNG quality?",
-        a: "Yes. ImgSwift embeds your PNG at full resolution inside the PDF without re-compressing it, so quality is fully preserved."
+        a: "Yes. IMGVO embeds your PNG at full resolution inside the PDF without re-compressing it, so quality is fully preserved."
       },
       {
         q: "Is my image uploaded to a server?",
@@ -849,7 +849,7 @@ const tools = [
       },
       {
         q: "What happens to PNG transparency in a PDF?",
-        a: "PDF supports transparency. ImgSwift preserves the alpha channel from your PNG, so transparent areas remain transparent in the PDF output."
+        a: "PDF supports transparency. IMGVO preserves the alpha channel from your PNG, so transparent areas remain transparent in the PDF output."
       }
     ],
     relatedTools: ["jpg-to-pdf", "pdf-to-image", "compress-image", "resize-image"]
@@ -860,7 +860,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "pdf-to-image",
-    title: "PDF to Image Converter — Free Online, No Upload | ImgSwift",
+    title: "PDF to Image Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert PDF pages to JPG or PNG free online. Extract every page as a high-quality image. No upload to any server, no signup — 100% browser-based and private.",
     ogDesc: "Convert PDF pages to JPG or PNG images online free. Extract every page as a high-quality image. No upload, no signup, 100% browser-based.",
     h1: "PDF to Image Converter",
@@ -868,7 +868,7 @@ const tools = [
     whyHeading: "Why Convert PDF to Image?",
     whyContent: "Converting PDF pages to images makes them shareable on social media, embeddable in presentations, usable as document previews, and viewable on devices without a PDF reader. Images are universally accessible and easier to work with than PDFs in most contexts.",
     howToSteps: [
-      { title: "Upload your PDF", desc: "Drop your PDF into ImgSwift. PDF.js renders every page directly in your browser — nothing is uploaded." },
+      { title: "Upload your PDF", desc: "Drop your PDF into IMGVO. PDF.js renders every page directly in your browser — nothing is uploaded." },
       { title: "Choose format and quality", desc: "Select JPG for photos/mixed content, PNG for text-heavy documents. Set DPI for print vs screen use." },
       { title: "Download images", desc: "Download individual pages or use Download All to get a ZIP file with every page." }
     ],
@@ -890,19 +890,19 @@ const tools = [
     faqs: [
       {
         q: "What image format should I choose — JPG or PNG?",
-        a: "ImgSwift converts PDF pages to JPG, PNG, or WebP. PNG is best for text-heavy documents (lossless, sharp text). JPG is best for photos or mixed content where file size matters."
+        a: "IMGVO converts PDF pages to JPG, PNG, or WebP. PNG is best for text-heavy documents (lossless, sharp text). JPG is best for photos or mixed content where file size matters."
       },
       {
-        q: "Does ImgSwift convert all pages at once?",
-        a: "Yes. ImgSwift renders every page of your PDF as a separate image. Download individual pages or use Download All to get a ZIP with every page."
+        q: "Does IMGVO convert all pages at once?",
+        a: "Yes. IMGVO renders every page of your PDF as a separate image. Download individual pages or use Download All to get a ZIP with every page."
       },
       {
         q: "Will the text be readable in the exported image?",
-        a: "Yes. ImgSwift renders at 150 DPI by default, ensuring text and fine details remain sharp. For higher resolution output, use the quality settings."
+        a: "Yes. IMGVO renders at 150 DPI by default, ensuring text and fine details remain sharp. For higher resolution output, use the quality settings."
       },
       {
         q: "Is it safe to convert confidential PDFs?",
-        a: "Yes. ImgSwift processes all files entirely inside your browser using PDF.js. Your PDF is never uploaded to any server and never leaves your device."
+        a: "Yes. IMGVO processes all files entirely inside your browser using PDF.js. Your PDF is never uploaded to any server and never leaves your device."
       }
     ],
     relatedTools: ["jpg-to-pdf", "png-to-pdf", "compress-image", "resize-image"]
@@ -913,15 +913,15 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "crop-image",
-    title: "Crop Image Free Online — No Upload, Instant Results | ImgSwift",
+    title: "Crop Image Free Online — No Upload, Instant Results | IMGVO",
     metaDesc: "Crop images free online. Supports free-form, 1:1, 16:9, 4:3, and 3:2 ratios. No upload to any server — 100% browser-based, instant, and completely private.",
     ogDesc: "Crop images free online with aspect ratio presets. No upload, 100% private, instant result.",
     h1: "Crop Image Free Online",
     introParagraph: "Crop images free online with aspect ratio presets — 1:1, 16:9, 4:3, 3:2, or free-form. No upload, 100% private, instant result.",
-    whyHeading: "Why Use ImgSwift to Crop Images?",
-    whyContent: "ImgSwift's crop tool runs entirely in your browser. There are no uploads, no watermarks, and no signup required. You get instant results with aspect ratio presets for every common platform — from Instagram squares to YouTube thumbnails.",
+    whyHeading: "Why Use IMGVO to Crop Images?",
+    whyContent: "IMGVO's crop tool runs entirely in your browser. There are no uploads, no watermarks, and no signup required. You get instant results with aspect ratio presets for every common platform — from Instagram squares to YouTube thumbnails.",
     howToSteps: [
-      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF image into ImgSwift. The crop interface opens automatically." },
+      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF image into IMGVO. The crop interface opens automatically." },
       { title: "Select crop area", desc: "Drag to draw your crop area. Choose an aspect ratio preset (1:1, 16:9, 4:3) or go free-form." },
       { title: "Download cropped image", desc: "Click Crop & Download. Choose JPG, PNG, or WebP as the output format." }
     ],
@@ -943,7 +943,7 @@ const tools = [
     faqs: [
       {
         q: "Is my image uploaded to a server?",
-        a: "No. ImgSwift processes all images entirely in your browser using the Canvas API. Your images never leave your device."
+        a: "No. IMGVO processes all images entirely in your browser using the Canvas API. Your images never leave your device."
       },
       {
         q: "What aspect ratio should I use for Instagram?",
@@ -955,7 +955,7 @@ const tools = [
       },
       {
         q: "Can I crop PNG images with transparency?",
-        a: "Yes. ImgSwift preserves the alpha channel when cropping PNG files. The transparent areas remain transparent in the output."
+        a: "Yes. IMGVO preserves the alpha channel when cropping PNG files. The transparent areas remain transparent in the output."
       }
     ],
     relatedTools: ["resize-image", "rotate-image", "flip-image", "compress-image"]
@@ -966,15 +966,15 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "rotate-image",
-    title: "Rotate Image Free Online — 90°, 180°, Flip & Mirror | ImgSwift",
+    title: "Rotate Image Free Online — 90°, 180°, Flip & Mirror | IMGVO",
     metaDesc: "Rotate any image 90°, 180°, or 270° free online. Flip horizontally or vertically. Supports JPG, PNG, WebP & AVIF. No upload — 100% private.",
     ogDesc: "Rotate any image 90°, 180°, or 270° online free. Flip horizontally or vertically. Supports JPG, PNG, WebP, and AVIF. No upload, no signup — 100% browser-based.",
     h1: "Rotate Image Free Online — 90°, 180°, Flip & Mirror",
     introParagraph: "Rotate any image 90°, 180°, or 270° online free. Flip horizontally or vertically. Supports JPG, PNG, WebP, and AVIF. No upload, no signup.",
     whyHeading: "Why Do Images Need Rotating?",
-    whyContent: "Sideways photos are caused by the EXIF orientation tag. Cameras write the orientation at capture, but some apps ignore it and display the image sideways. ImgSwift reads and applies the EXIF orientation automatically — and lets you fine-tune with manual rotation controls.",
+    whyContent: "Sideways photos are caused by the EXIF orientation tag. Cameras write the orientation at capture, but some apps ignore it and display the image sideways. IMGVO reads and applies the EXIF orientation automatically — and lets you fine-tune with manual rotation controls.",
     howToSteps: [
-      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF image into ImgSwift." },
+      { title: "Upload your image", desc: "Drop your JPG, PNG, WebP, or AVIF image into IMGVO." },
       { title: "Choose rotation", desc: "Click 90° CW, 90° CCW, 180°, Flip Horizontal, or Flip Vertical. The preview updates instantly." },
       { title: "Download rotated image", desc: "Save your corrected image as JPG, PNG, or WebP." }
     ],
@@ -996,19 +996,19 @@ const tools = [
     faqs: [
       {
         q: "How do I rotate an image 90 degrees clockwise?",
-        a: "Upload your image to ImgSwift's rotate tool and click the '90° CW' button. The image rotates clockwise by 90 degrees instantly and a preview appears."
+        a: "Upload your image to IMGVO's rotate tool and click the '90° CW' button. The image rotates clockwise by 90 degrees instantly and a preview appears."
       },
       {
         q: "Can I flip an image horizontally or vertically?",
-        a: "Yes. ImgSwift lets you flip images horizontally (mirror left-right) and vertically (flip upside-down) in addition to rotation controls."
+        a: "Yes. IMGVO lets you flip images horizontally (mirror left-right) and vertically (flip upside-down) in addition to rotation controls."
       },
       {
         q: "Does rotating an image reduce quality?",
-        a: "For PNG and WebP, rotation is completely lossless — the pixel data is rearranged without any re-encoding. For JPG, ImgSwift re-encodes at high quality to apply the rotation."
+        a: "For PNG and WebP, rotation is completely lossless — the pixel data is rearranged without any re-encoding. For JPG, IMGVO re-encodes at high quality to apply the rotation."
       },
       {
         q: "What image formats can I rotate?",
-        a: "ImgSwift accepts JPG, PNG, WebP, AVIF, and GIF. The rotated image can be downloaded as JPG, PNG, or WebP."
+        a: "IMGVO accepts JPG, PNG, WebP, AVIF, and GIF. The rotated image can be downloaded as JPG, PNG, or WebP."
       }
     ],
     relatedTools: ["flip-image", "crop-image", "resize-image", "compress-image"]
@@ -1019,15 +1019,15 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "flip-image",
-    title: "Flip Image Free Online — Mirror Horizontal & Vertical | ImgSwift",
+    title: "Flip Image Free Online — Mirror Horizontal & Vertical | IMGVO",
     metaDesc: "Flip any image horizontally or vertically free online. Mirror photos instantly — no upload, no signup. Supports JPG, PNG, WebP & AVIF. 100% private.",
     ogDesc: "Flip any image horizontally or vertically online free. Mirror photos instantly — no upload, no signup. Supports JPG, PNG, WebP, and AVIF. 100% browser-based.",
     h1: "Flip Image Free Online — Mirror Horizontal & Vertical",
     introParagraph: "Flip any image horizontally or vertically online free. Mirror photos instantly — no upload, no signup. Supports JPG, PNG, WebP, and AVIF. 100% browser-based.",
     whyHeading: "When Do You Need to Flip an Image?",
-    whyContent: "Flipping is useful for creating mirror effects, fixing selfie mirroring (front cameras flip images by default), creating symmetrical compositions, or preparing images for fabric printing where text needs to appear reversed. ImgSwift handles all these cases instantly.",
+    whyContent: "Flipping is useful for creating mirror effects, fixing selfie mirroring (front cameras flip images by default), creating symmetrical compositions, or preparing images for fabric printing where text needs to appear reversed. IMGVO handles all these cases instantly.",
     howToSteps: [
-      { title: "Upload your image", desc: "Drop your image into ImgSwift. Any format works — JPG, PNG, WebP, or AVIF." },
+      { title: "Upload your image", desc: "Drop your image into IMGVO. Any format works — JPG, PNG, WebP, or AVIF." },
       { title: "Flip horizontally or vertically", desc: "Click Flip Horizontal (mirror left-right) or Flip Vertical (flip upside-down). Preview updates instantly." },
       { title: "Download flipped image", desc: "Save as JPG, PNG, or WebP. PNG and WebP flips are completely lossless." }
     ],
@@ -1049,7 +1049,7 @@ const tools = [
     faqs: [
       {
         q: "How do I flip an image horizontally?",
-        a: "Upload your image to ImgSwift's flip tool and click 'Flip Horizontal'. The image mirrors left-to-right instantly and a preview appears for download."
+        a: "Upload your image to IMGVO's flip tool and click 'Flip Horizontal'. The image mirrors left-to-right instantly and a preview appears for download."
       },
       {
         q: "What is the difference between flip horizontal and flip vertical?",
@@ -1057,11 +1057,11 @@ const tools = [
       },
       {
         q: "Does flipping an image reduce quality?",
-        a: "For PNG and WebP, flipping is completely lossless — pixels are rearranged with no re-encoding. For JPG, ImgSwift re-encodes at high quality to apply the flip."
+        a: "For PNG and WebP, flipping is completely lossless — pixels are rearranged with no re-encoding. For JPG, IMGVO re-encodes at high quality to apply the flip."
       },
       {
         q: "What image formats can I flip?",
-        a: "ImgSwift accepts JPG, PNG, WebP, AVIF, and GIF. The flipped image can be downloaded as JPG, PNG, or WebP — your choice."
+        a: "IMGVO accepts JPG, PNG, WebP, AVIF, and GIF. The flipped image can be downloaded as JPG, PNG, or WebP — your choice."
       }
     ],
     relatedTools: ["rotate-image", "crop-image", "resize-image", "compress-image"]
@@ -1073,7 +1073,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "heic-to-png",
-    title: "HEIC to PNG Converter — Free Online, No Upload | ImgSwift",
+    title: "HEIC to PNG Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert HEIC to PNG free online. Lossless PNG output from iPhone photos — works instantly in your browser, no upload to any server, no signup, 100% private.",
     ogDesc: "Convert HEIC to PNG free online. Lossless PNG output from iPhone photos — no upload, no signup. 100% browser-based.",
     h1: "HEIC to PNG Converter",
@@ -1081,8 +1081,8 @@ const tools = [
     whyHeading: "Why Convert HEIC to PNG?",
     whyContent: "HEIC is the default format for iPhone photos since iOS 11, but it lacks universal support on Windows, Android, and most editing software. PNG solves that — it is universally supported and lossless, meaning every pixel from your original iPhone photo is preserved perfectly. PNG is the ideal choice when you need to edit the photo further, use it in design work, or archive it without any quality loss.",
     howToSteps: [
-      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into ImgSwift, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
-      { title: "Convert automatically", desc: "ImgSwift detects the HEIC format and converts it instantly to lossless PNG in your browser. No waiting, no server involved." },
+      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into IMGVO, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
+      { title: "Convert automatically", desc: "IMGVO detects the HEIC format and converts it instantly to lossless PNG in your browser. No waiting, no server involved." },
       { title: "Download your PNG", desc: "Click Download to save the PNG to your device. Works on iPhone, Android, Windows, and Mac. No watermark, no signup." }
     ],
     conversionTable: {
@@ -1116,11 +1116,11 @@ const tools = [
       },
       {
         q: "Can I convert multiple HEIC files to PNG at once?",
-        a: "Yes. ImgSwift supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
+        a: "Yes. IMGVO supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
       },
       {
         q: "Is my iPhone photo data safe?",
-        a: "100% safe. ImgSwift processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
+        a: "100% safe. IMGVO processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
       }
     ],
     relatedTools: ["heic-to-jpg", "jpg-to-png", "png-to-jpg", "compress-image", "resize-image"]
@@ -1132,7 +1132,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "heic-to-webp",
-    title: "HEIC to WebP Converter — Free Online, No Upload | ImgSwift",
+    title: "HEIC to WebP Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert HEIC to WebP free online. Smaller than JPG, works on all modern browsers. Convert iPhone photos instantly — no upload, no signup, 100% private.",
     ogDesc: "Convert HEIC to WebP free online. Smaller than JPG, works on all modern browsers — no upload, no signup. 100% browser-based.",
     h1: "HEIC to WebP Converter",
@@ -1140,8 +1140,8 @@ const tools = [
     whyHeading: "Why Convert HEIC to WebP?",
     whyContent: "HEIC is Apple's proprietary format — great on iPhone, but unsupported on Windows, Android, and most websites. WebP is the modern web standard: supported by all major browsers and typically 25–35% smaller than JPG at the same visual quality. Converting your iPhone HEIC photos to WebP gives you universal compatibility and excellent compression for web use.",
     howToSteps: [
-      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into ImgSwift, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
-      { title: "Convert automatically", desc: "ImgSwift detects the HEIC format and converts it instantly to WebP in your browser. No waiting, no server involved." },
+      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into IMGVO, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
+      { title: "Convert automatically", desc: "IMGVO detects the HEIC format and converts it instantly to WebP in your browser. No waiting, no server involved." },
       { title: "Download your WebP", desc: "Click Download to save the WebP to your device. Works on iPhone, Android, Windows, and Mac. No watermark, no signup." }
     ],
     conversionTable: {
@@ -1171,15 +1171,15 @@ const tools = [
       },
       {
         q: "What quality should I use for HEIC to WebP conversion?",
-        a: "For web use, quality 80–85% gives excellent results that are visually identical to the original while keeping file sizes small. For archiving or printing, use quality 90–95%. ImgSwift defaults to 85% which is optimal for most use cases."
+        a: "For web use, quality 80–85% gives excellent results that are visually identical to the original while keeping file sizes small. For archiving or printing, use quality 90–95%. IMGVO defaults to 85% which is optimal for most use cases."
       },
       {
         q: "Can I convert multiple HEIC files to WebP at once?",
-        a: "Yes. ImgSwift supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
+        a: "Yes. IMGVO supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
       },
       {
         q: "Is my iPhone photo data safe?",
-        a: "100% safe. ImgSwift processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
+        a: "100% safe. IMGVO processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
       }
     ],
     relatedTools: ["heic-to-jpg", "heic-to-png", "jpg-to-webp", "png-to-webp", "compress-image"]
@@ -1191,7 +1191,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "heic-to-avif",
-    title: "HEIC to AVIF Converter — Free Online, No Upload | ImgSwift",
+    title: "HEIC to AVIF Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert HEIC to AVIF free online. Next-gen compression — even smaller than WebP. Convert iPhone photos instantly in your browser, no upload, no signup, 100% private.",
     ogDesc: "Convert HEIC to AVIF free online. Next-gen compression — even smaller than WebP. No upload, no signup. 100% browser-based.",
     h1: "HEIC to AVIF Converter",
@@ -1199,8 +1199,8 @@ const tools = [
     whyHeading: "Why Convert HEIC to AVIF?",
     whyContent: "HEIC is Apple's proprietary format — excellent on iPhone, but unsupported on most of the web. AVIF is the next-generation image format backed by the Alliance for Open Media: it delivers superior compression to both JPG and WebP, typically producing files 50% smaller than JPG and 20–30% smaller than WebP at the same visual quality. If you are optimizing iPhone photos for modern websites, AVIF is the best choice for maximum performance.",
     howToSteps: [
-      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into ImgSwift, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
-      { title: "Convert automatically", desc: "ImgSwift detects the HEIC format and converts it instantly to AVIF in your browser. No waiting, no server involved." },
+      { title: "Upload your HEIC file", desc: "Drag and drop your HEIC or HEIF photo into IMGVO, or click to browse. Works with iPhone photos directly. Supports multiple files at once." },
+      { title: "Convert automatically", desc: "IMGVO detects the HEIC format and converts it instantly to AVIF in your browser. No waiting, no server involved." },
       { title: "Download your AVIF", desc: "Click Download to save the AVIF to your device. Works on iPhone, Android, Windows, and Mac. No watermark, no signup." }
     ],
     conversionTable: {
@@ -1230,15 +1230,15 @@ const tools = [
       },
       {
         q: "What quality should I use for HEIC to AVIF conversion?",
-        a: "Quality 75–85% is ideal for web use — AVIF at this level is visually indistinguishable from the original while being dramatically smaller. For archival, quality 90–95% is recommended. ImgSwift defaults to 80% which is a great balance for web delivery."
+        a: "Quality 75–85% is ideal for web use — AVIF at this level is visually indistinguishable from the original while being dramatically smaller. For archival, quality 90–95% is recommended. IMGVO defaults to 80% which is a great balance for web delivery."
       },
       {
         q: "Can I convert multiple HEIC files to AVIF at once?",
-        a: "Yes. ImgSwift supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
+        a: "Yes. IMGVO supports batch conversion. Drop multiple HEIC files at once and download them individually or as a single ZIP archive."
       },
       {
         q: "Is my iPhone photo data safe?",
-        a: "100% safe. ImgSwift processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
+        a: "100% safe. IMGVO processes all files directly in your browser — nothing is ever uploaded to any server. Your photos never leave your device."
       }
     ],
     relatedTools: ["heic-to-jpg", "heic-to-png", "heic-to-webp", "jpg-to-avif", "png-to-avif", "compress-image"]
@@ -1250,7 +1250,7 @@ const tools = [
   // ─────────────────────────────────────────
   {
     slug: "gif-to-webp",
-    title: "GIF to WebP Converter — Free Online, No Upload | ImgSwift",
+    title: "GIF to WebP Converter — Free Online, No Upload | IMGVO",
     metaDesc: "Convert GIF to WebP free online. Animated WebP is smaller than GIF with better quality. Works instantly in your browser — no upload, no signup, 100% private.",
     ogDesc: "Convert GIF to WebP free online. Animated WebP is smaller than GIF with better quality — no upload, no signup. 100% browser-based.",
     h1: "GIF to WebP Converter",
@@ -1258,8 +1258,8 @@ const tools = [
     whyHeading: "Why Convert GIF to WebP?",
     whyContent: "GIF is a format from 1987 — it is limited to 256 colors, uses an outdated compression algorithm, and produces large file sizes. Animated WebP solves all of this: it supports full 24-bit color, uses modern compression, and is typically 30–60% smaller than an equivalent GIF. The animation, loop count, and frame timing are all preserved. For any website loading animated images, switching from GIF to WebP is one of the easiest performance wins available.",
     howToSteps: [
-      { title: "Upload your GIF", desc: "Drag and drop your GIF file into ImgSwift, or click to browse. Animated GIFs are fully supported. Batch upload multiple files at once." },
-      { title: "Convert automatically", desc: "ImgSwift converts your GIF to animated WebP instantly in your browser, preserving all frames and timing. No waiting, no server involved." },
+      { title: "Upload your GIF", desc: "Drag and drop your GIF file into IMGVO, or click to browse. Animated GIFs are fully supported. Batch upload multiple files at once." },
+      { title: "Convert automatically", desc: "IMGVO converts your GIF to animated WebP instantly in your browser, preserving all frames and timing. No waiting, no server involved." },
       { title: "Download your WebP", desc: "Click Download to save the animated WebP. Drop it straight into your website for instant performance gains. No watermark, no signup." }
     ],
     conversionTable: {
@@ -1281,7 +1281,7 @@ const tools = [
     faqs: [
       {
         q: "Does animated GIF to WebP preserve the animation?",
-        a: "Yes. ImgSwift converts animated GIFs to animated WebP, preserving all frames and timing. The result plays exactly like the original GIF but with a much smaller file size and better color quality."
+        a: "Yes. IMGVO converts animated GIFs to animated WebP, preserving all frames and timing. The result plays exactly like the original GIF but with a much smaller file size and better color quality."
       },
       {
         q: "How much smaller is WebP compared to GIF?",
@@ -1293,7 +1293,7 @@ const tools = [
       },
       {
         q: "Can I convert multiple GIF files at once?",
-        a: "Yes. ImgSwift supports batch conversion. Drop multiple GIF files at once and download them individually or as a single ZIP archive."
+        a: "Yes. IMGVO supports batch conversion. Drop multiple GIF files at once and download them individually or as a single ZIP archive."
       },
       {
         q: "Will the WebP loop like the original GIF?",
