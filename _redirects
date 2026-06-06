@@ -68,7 +68,6 @@
 /terms-of-use                  /terms-of-use/                 301
 
 # ── Arabic Pages ─────────────────────────────────────────────
-/ar                            /ar/                           301
 /ar/jpg-to-png                 /ar/jpg-to-png/                301
 /ar/png-to-jpg                 /ar/png-to-jpg/                301
 /ar/compress-image             /ar/compress-image/            301
@@ -233,3 +232,4 @@
 /heic-to-webp                  /heic-to-webp/                 301
 /heic-to-avif                  /heic-to-avif/                 301
 /gif-to-webp                   /gif-to-webp/                  301
+/ar    /ar/index.html    200
