@@ -1,5 +1,5 @@
 #!/bin/bash
-# setup-libs.sh — ImgSwift build script for Netlify
+# setup-libs.sh — IMGVO build script for Netlify
 # Generates tool pages + injects deploy version into sw.js
 
 set -e
