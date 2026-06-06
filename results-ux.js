@@ -834,7 +834,7 @@ return [
 `Original: ${fmtSz(r.file.size)} (${fromExt})`,
 `Result: ${fmtSz(r.blob.size)} (${toExt})`,
 pct > 0 ? `Saved: ${fmtSz(savedBytes(r.file.size, r.blob.size))} (${pct}%)` : '',
-`imgswift.xyz`,
+`imgvo.com`,
 ].filter(Boolean).join('\n');
 }
 return [
@@ -843,7 +843,7 @@ return [
 `Total original: ${fmtSz(totalOrig)}`,
 `Total result: ${fmtSz(totalResult)}`,
 pct > 0 ? `Saved: ${fmtSz(savedBytes(totalOrig, totalResult))} (${pct}%)` : '',
-`imgswift.xyz`,
+`imgvo.com`,
 ].filter(Boolean).join('\n');
 }
 /* ────────────────────────────────────────────────────────────

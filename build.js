@@ -9,7 +9,7 @@ const path = require("path");
 const tools = require("./tools-data.js");
 
 // ── إعدادات ──────────────────────────────────────────────
-const BASE_URL   = "https://imgswift.xyz";
+const BASE_URL   = "https://imgvo.com";
 const OUTPUT_DIR = __dirname;
 
 // رابط الأداة داخل التطبيق (/?tool=...)
@@ -261,8 +261,8 @@ function buildPage(t) {
     "@type": "Article",
     "headline": ${JSON.stringify(t.title)},
     "description": ${JSON.stringify(t.ogDesc)},
-    "author": {"@type": "Person", "name": "ImgSwift Team", "url": "https://imgswift.xyz/about/"},
-    "publisher": {"@type": "Organization", "name": "ImgSwift", "url": "https://imgswift.xyz"},
+    "author": {"@type": "Person", "name": "ImgSwift Team", "url": "https://imgvo.com/about/"},
+    "publisher": {"@type": "Organization", "name": "ImgSwift", "url": "https://imgvo.com"},
     "url": "${url}",
     "datePublished": "2026-05-30",
     "dateModified": "2026-06-03"
@@ -275,7 +275,7 @@ function buildPage(t) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://imgswift.xyz/"},
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://imgvo.com/"},
       {"@type":"ListItem","position":2,"name":${JSON.stringify(t.h1)},"item":"${url}"}
     ]
   }
@@ -380,7 +380,7 @@ function buildPage(t) {
   <div class="tool-frame">
     <div class="tool-frame-header">
       <div class="tool-frame-dot"></div>
-      <span class="tool-frame-title">${esc(t.h1)} — imgswift.xyz</span>
+      <span class="tool-frame-title">${esc(t.h1)} — imgvo.com</span>
     </div>
     <div class="tool-frame-body">
       <a href="${toolLink}" style="text-decoration:none;">

@@ -176,10 +176,10 @@ bg: '#1a0000',
 const DEFAULT = {
 title: 'ImgSwift – Free Image Converter & Compressor | JPG PNG WebP PDF Online',
 description: 'Convert & compress images free online. Convert JPG to WebP, PNG to JPG, images to PDF and 8+ formats. Compress images up to 90% without quality loss. 100% browser-based — no upload, no signup.',
-canonical: 'https://imgswift.xyz/',
-ogImage: 'https://imgswift.xyz/og-image.png',
+canonical: 'https://imgvo.com/',
+ogImage: 'https://imgvo.com/og-image.png',
 };
-const BASE_URL = 'https://imgswift.xyz/';
+const BASE_URL = 'https://imgvo.com/';
 let _ogCanvas = null;
 function _getOgCanvas() {
 if (!_ogCanvas) {
@@ -225,7 +225,7 @@ ctx.fill();
 ctx.font = 'bold 22px monospace';
 ctx.fillStyle = _hexAlpha('#ffffff', 0.4);
 ctx.textBaseline = 'top';
-ctx.fillText('⚡ imgswift.xyz', 60, 52);
+ctx.fillText('⚡ imgvo.com', 60, 52);
 ctx.font = '110px serif';
 ctx.textBaseline = 'middle';
 ctx.textAlign = 'left';

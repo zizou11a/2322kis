@@ -50,7 +50,7 @@ const tools = [
       },
       {
         q: "How do I convert JPG to PNG on iPhone or Android?",
-        a: "ImgSwift works in all mobile browsers. Open imgswift.xyz on your phone, select JPG to PNG, upload your image, and download the result — no app needed."
+        a: "ImgSwift works in all mobile browsers. Open imgvo.com on your phone, select JPG to PNG, upload your image, and download the result — no app needed."
       },
       {
         q: "Is there a file size limit?",

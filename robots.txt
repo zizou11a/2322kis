@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://imgswift.xyz/sitemap.xml
+Sitemap: https://imgvo.com/sitemap.xml
