@@ -5,4 +5,4 @@ compatibility_date = "2024-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "2322kis-db"
-database_id = "PLACEHOLDER"
+database_id = "1ab762de-e384-4059-9bb9-8420112bc30a"
