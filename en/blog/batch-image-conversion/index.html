@@ -3,108 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Master batch image conversion to save time and boost SEO. Learn how to process hundreds of images instantly with IMGVO.">
-  <title>Batch Image Conversion: The Complete Guide | IMGVO</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-
+  <title>Batch Image Conversion | IMGVO</title>
   <style>
-    /* تم تكبير الخطوط والمسافات قليلاً لراحة أكبر */
-    :root {
-      --ink:      #111318;
-      --body:     #3a3d47;
-      --accent:   #1a6bff;
-      --surface:  #f8f8f6;
-      --border:   #e8e8ec;
-      --font-base: 18px; /* زيادة حجم الخط الأساسي */
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--surface);
-      color: var(--body);
-      font-size: var(--font-base);
-      line-height: 1.8; /* زيادة المسافة بين الأسطر */
-    }
-
-    .article-wrap {
-      max-width: 1000px; /* زيادة عرض الحاوية */
-      margin: 0 auto;
-      padding: 80px 24px;
-      display: grid;
-      grid-template-columns: 1fr 300px;
-      gap: 80px;
-    }
-
-    .article h1 {
-      font-family: 'Lora', serif;
-      font-size: 2.8rem; /* عنوان أكبر */
-      color: var(--ink);
-      margin-bottom: 30px;
-    }
-
-    .article p { margin-bottom: 24px; } /* مسافة أكبر بين الفقرات */
-
-    .article h2 {
-      font-family: 'Lora', serif;
-      font-size: 1.8rem; /* عناوين فرعية أكبر */
-      color: var(--ink);
-      margin: 50px 0 20px;
-    }
-
-    /* باقي التنسيقات تبقى كما هي لضمان الاحترافية */
-    .nav, .sidebar, .callout, .table-wrap, .steps-list, .inline-cta {
-      border: 1px solid var(--border);
-      border-radius: 14px;
-    }
+    body { font-family: sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; }
     
-    a { color: var(--accent); text-decoration: none; }
-    .btn-cta { background: var(--accent); color: #fff; padding: 15px 30px; border-radius: 40px; font-weight: 700; }
+    /* جعل الحاوية متجاوبة */
+    .wrapper { max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 20px; }
+    
+    /* المحتوى الرئيسي */
+    .main-content { flex: 3; min-width: 300px; }
+    
+    /* الشريط الجانبي */
+    .sidebar { flex: 1; min-width: 200px; background: #f4f4f4; padding: 15px; border-radius: 8px; height: fit-content; }
+
+    h1 { font-size: 2rem; color: #111; }
+    h2 { color: #1a6bff; }
+    .cta-button { display: inline-block; background: #1a6bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+
+    /* الجزء السحري للموبايل */
+    @media (max-width: 600px) {
+      .wrapper { flex-direction: column; }
+    }
   </style>
 </head>
-
 <body>
 
-  <div class="article-wrap">
-    <article class="article">
+  <div class="wrapper">
+    <main class="main-content">
       <h1>Batch Image Conversion: How to Optimize Hundreds of Images Instantly</h1>
+      <p>Time is money. Instead of editing one photo at a time, batch image conversion allows you to process entire folders in seconds.</p>
       
-      <p class="lead">
-        Time is money, especially for e-commerce owners. Instead of editing one photo at a time, batch image conversion allows you to process entire folders in seconds.
-      </p>
-
-      <h2>What is Batch Conversion?</h2>
-      <p>Batch image conversion is the practice of applying the same operations—resizing, compressing, or format changing—to a large group of images simultaneously. It ensures consistency across your entire website.</p>
-
       <h2>Why It’s Essential for E-commerce</h2>
       <ul>
         <li><strong>Consistency:</strong> Uniform dimensions for all your product images.</li>
         <li><strong>Performance:</strong> Quick compression helps you pass Google’s Core Web Vitals.</li>
-        <li><strong>Automation:</strong> Free up hours of your work week for marketing and growth.</li>
       </ul>
 
-      <div class="inline-cta">
-        <div>
-          <h3>Automate Your Workflow</h3>
-          <p>Process your folders with IMGVO.</p>
-        </div>
-        <a href="https://imgvo.com" class="btn-cta">Start Batch Processing →</a>
+      <div class="cta-box">
+        <h3>Automate Your Workflow</h3>
+        <p>Process your folders with IMGVO.</p>
+        <a href="https://imgvo.com" class="cta-button">Start Batch Processing →</a>
       </div>
-    </article>
+    </main>
 
     <aside class="sidebar">
-      <div class="sidebar-card">
-        <div class="sidebar-head">Quick Links</div>
-        <div class="sidebar-body">
-           <a href="https://imgvo.com/jpg-to-webp">WebP Converter</a><br>
-           <a href="https://imgvo.com/compress-image">Compress Tool</a>
-        </div>
-      </div>
+      <h3>Quick Links</h3>
+      <p><a href="#">WebP Converter</a></p>
+      <p><a href="#">Compress Tool</a></p>
     </aside>
   </div>
 
-<
-/body>
-</html>
+</body>
+</
+  html>
