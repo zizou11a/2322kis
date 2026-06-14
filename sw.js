@@ -48,7 +48,9 @@ self.clients.matchAll({ type: 'window' }).then(clients => {
 clients.forEach(client => {
 client.postMessage({ type: 'SW_UPDATED' });
 // Force reload to get new HTML
-client.navigate(client.url);
+clients.forEach(client => {
+  client.postMessage({ type: 'SW_UPDATED' });
+});
 });
 });
 })
