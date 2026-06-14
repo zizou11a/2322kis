@@ -221,15 +221,16 @@
 /privacy-policy/http*    /privacy-policy/    301
 /privacy-policy/https*   /privacy-policy/    301
 /terms-of-use/http*    /terms-of-use/    301
-/terms-of-use/http*    /terms-of-use/    301
 /terms-of-use/https*   /terms-of-use/    301
 
-# ── 404 Custom Error Page ───────────────────────────────────
-/404                           /404.html                      200
-/* /404.html 404
+# ── HEIC/GIF Tool Pages + Arabic Index ───────────────────────
 /heic-to-jpg                   /heic-to-jpg/                  301
 /heic-to-png                   /heic-to-png/                  301
 /heic-to-webp                  /heic-to-webp/                 301
 /heic-to-avif                  /heic-to-avif/                 301
 /gif-to-webp                   /gif-to-webp/                  301
 /ar/    /ar/index.html    200
+
+# ── 404 Fallback (must be last) ───────────────────────────────
+/404                           /404.html                      200
+/* /404.html 404
