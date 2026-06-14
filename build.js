@@ -59,6 +59,7 @@ const STATIC_PAGES = [
   { loc: "/webp-vs-jpg/",                                     lastmod: "2026-06-04" },
   { loc: "/image-optimization-tools/",                        lastmod: "2026-06-04" },
   { loc: "/en/blog/batch-image-conversion/",                  lastmod: "2026-06-11" },
+  { loc: "/en/blog/what-is-heic/", lastmod: "2026-06-13" },
   { loc: "/en/blog/compress-images-without-losing-quality/", lastmod: "2026-06-14" },
   // صفحات الموقع
   { loc: "/hub/",                                             lastmod: "2026-06-04" },
