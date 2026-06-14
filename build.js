@@ -493,7 +493,27 @@ for (const tool of tools) {
 
 console.log(`\n🎉  تم بناء ${built} صفحة بنجاح في ${OUTPUT_DIR}`);
 if (skipped > 0) console.log(`⏭️   تخطّي ${skipped} صفحة`);
+// ── توليد sitemap.xml تلقائي ───────────────────────
+const sitemapPath = path.join(OUTPUT_DIR, "sitemap.xml");
 
+const urls = tools.map(t => {
+  const url = `${BASE_URL}/${t.slug}/`;
+  const date = new Date().toISOString().split("T")[0];
+  return `
+  <url>
+    <loc>${url}</loc>
+    <lastmod>${date}</lastmod>
+  </url>`;
+}).join("\n");
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}
+</urlset>`;
+
+fs.writeFileSync(sitemapPath, sitemap, "utf8");
+
+console.log("🗺️ sitemap.xml updated automatically");
 console.log(`
 📋  الأقسام الجديدة في هذه النسخة:
    • howToSteps   — خطوات مخصصة لكل أداة (3 خطوات دقيقة)
