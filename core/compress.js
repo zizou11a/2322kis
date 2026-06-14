@@ -1,4 +1,5 @@
 'use strict';
+'use strict';
 function updateCompressQuality(input) {
 $('compressQualVal').textContent = input.value + '%';
 input.setAttribute('aria-valuenow', input.value);
@@ -210,7 +211,6 @@ resultsEl.style.display = 'block';
 btn.disabled = false;
 $('btnCompress').style.display = 'none';
 $('btnCompressNew').style.display = 'flex';
-const succeeded = done - failed;
 if (failed === 0) {
 showToast(`${t.compressSuccess} ${succeeded} ${t.compressSuccessEnd}`, 'success');
 } else if (succeeded > 0) {
