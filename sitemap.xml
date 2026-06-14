@@ -2,31 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url><loc>https://imgvo.com/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/compress-image/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/resize-image/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/crop-image/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/flip-image/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/rotate-image/</loc><lastmod>2026-06-04</lastmod></url>
+  <url><loc>https://imgvo.com/image-converter/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/watermark-image/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/view-image-metadata/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/remove-exif-data/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/image-converter/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/jpg-to-png/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/jpg-to-webp/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/jpg-to-avif/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/jpg-to-pdf/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/png-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/png-to-webp/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/png-to-avif/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/png-to-pdf/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/webp-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/webp-to-png/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/webp-to-avif/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/avif-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/avif-to-png/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/avif-to-webp/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/svg-converter/</loc><lastmod>2026-06-04</lastmod></url>
-  <url><loc>https://imgvo.com/pdf-to-image/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/jpg-vs-png/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/png-vs-webp/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/webp-vs-avif/</loc><lastmod>2026-06-04</lastmod></url>
@@ -55,6 +35,10 @@
   <url><loc>https://imgvo.com/how-to-optimize-images-for-google-pagespeed/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/how-to-remove-exif-metadata/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/best-free-image-converter-online/</loc><lastmod>2026-06-04</lastmod></url>
+  <url><loc>https://imgvo.com/heic-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
+  <url><loc>https://imgvo.com/heic-vs-jpg/</loc><lastmod>2026-06-04</lastmod></url>
+  <url><loc>https://imgvo.com/webp-vs-jpg/</loc><lastmod>2026-06-04</lastmod></url>
+  <url><loc>https://imgvo.com/en/blog/batch-image-conversion/</loc><lastmod>2026-06-11</lastmod></url>
   <url><loc>https://imgvo.com/hub/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/about/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/authors/</loc><lastmod>2026-06-04</lastmod></url>
@@ -62,8 +46,6 @@
   <url><loc>https://imgvo.com/privacy-policy/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/terms-of-use/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/editorial-policy/</loc><lastmod>2026-06-04</lastmod></url>
-
-  <!-- النسخ العربية -->
   <url><loc>https://imgvo.com/ar/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/ar/compress-image/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/ar/jpg-to-png/</loc><lastmod>2026-06-04</lastmod></url>
@@ -71,16 +53,33 @@
   <url><loc>https://imgvo.com/ar/png-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/ar/png-to-webp/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/ar/resize-image/</loc><lastmod>2026-06-04</lastmod></url>
-
-  <!-- النسخ الإسبانية والفرنسية -->
   <url><loc>https://imgvo.com/es/</loc><lastmod>2026-06-04</lastmod></url>
   <url><loc>https://imgvo.com/fr/</loc><lastmod>2026-06-04</lastmod></url>
 
-  <url><loc>https://imgvo.com/heic-to-jpg/</loc><lastmod>2026-06-04</lastmod></url>
-<url>
-  <loc>https://imgvo.com/en/blog/batch-image-conversion/</loc>
-  <lastmod>2026-06-11</lastmod>
-</url>
-  
-</urlset>
+  <!-- صفحات الأدوات (مُولّدة تلقائياً من tools-data.js) -->
+  <url><loc>https://imgvo.com/jpg-to-png/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/png-to-jpg/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/jpg-to-webp/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/png-to-webp/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/compress-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/resize-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/webp-to-jpg/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/webp-to-png/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/jpg-to-avif/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/png-to-avif/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/webp-to-avif/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/avif-to-jpg/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/avif-to-png/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/avif-to-webp/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/jpg-to-pdf/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/png-to-pdf/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/pdf-to-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/crop-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/rotate-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/flip-image/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/heic-to-png/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/heic-to-webp/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/heic-to-avif/</loc><lastmod>2026-06-14</lastmod></url>
+  <url><loc>https://imgvo.com/gif-to-webp/</loc><lastmod>2026-06-14</lastmod></url>
 
+</urlset>
