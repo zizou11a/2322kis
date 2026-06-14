@@ -1,5 +1,4 @@
 'use strict';
-'use strict';
 function updateCompressQuality(input) {
 $('compressQualVal').textContent = input.value + '%';
 input.setAttribute('aria-valuenow', input.value);
