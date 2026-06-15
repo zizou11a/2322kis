@@ -61,6 +61,8 @@ const STATIC_PAGES = [
   { loc: "/en/blog/batch-image-conversion/",                  lastmod: "2026-06-11" },
   { loc: "/en/blog/what-is-heic/", lastmod: "2026-06-13" },
   { loc: "/en/blog/compress-images-without-losing-quality/", lastmod: "2026-06-14" },
+  { loc: "/en/blog/what-is-avif/", lastmod: "2026-06-16" },
+  
   // صفحات الموقع
   { loc: "/hub/",                                             lastmod: "2026-06-04" },
   { loc: "/about/",                                           lastmod: "2026-06-04" },
